@@ -1,0 +1,57 @@
+.bg-custom {
+	background-color: #303f9f;
+}
+
+.navbar .nav-item:hover .nav-link {
+	background-color: white;
+	color: black;
+	border-radius: 15px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1 1 300px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin: 0;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.footer-bottom {
+  background-color: #222;
+  text-align: center;
+  padding: 10px 0;
+}
